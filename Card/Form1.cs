@@ -45,7 +45,6 @@ namespace Card
             SolidBrush wordBrush = new SolidBrush(Color.Red);
             Font wordFont = new Font(" Monaco New", 15);
 
-
             //All Frames for the constellation
             //Frame 1
             g.Clear(Color.Black);
@@ -143,7 +142,6 @@ namespace Card
             g.FillEllipse(conBrush, 589, 47, 9, 9);
             starSound.Play();
 
-
             //Code for lines connecting to stars
             //Frame 20
             Thread.Sleep(1000);
@@ -239,7 +237,6 @@ namespace Card
             Thread.Sleep(1000);
             g.DrawLine(conPen, 591, 49, 567, 34);
             decapSound.Play();
-
 
             //text commands
             Thread.Sleep(1500);
